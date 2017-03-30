@@ -1,0 +1,64 @@
+﻿ul
+{
+    list-style-type:none;
+    background-color:Black;
+    margin:0;
+    padding:0;
+   
+}
+li
+{
+    display:block;
+    text-decoration:none;
+    font-size:16pt;
+    font-weight:bold;
+    float:left;
+    padding-left:16px;
+    padding-bottom:15px;
+    padding-top:15px;
+    padding-right:16px;
+    overflow:hidden;
+    
+    
+    
+}
+li:hover
+{
+    background-color:Gray;
+    transition:1s;
+}
+a
+{
+    color:White;
+    text-decoration:none;
+}
+
+li a:hover:active
+{
+    border-bottom:solid orange;
+}
+
+*
+{
+    font-family:Arial;
+}
+Input:focus
+{
+    border-color:Orange;
+    border-style:double;
+    transition:1s;
+}
+Input:checked
+{
+    border-color:orange;
+    border-style:dotted;
+    transition:1s;
+}
+Input:active
+{
+    border-color:orange;
+    border-style:dotted;
+    transition:1s;
+}
+
+
