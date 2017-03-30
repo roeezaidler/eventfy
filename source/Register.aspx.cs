@@ -18,7 +18,7 @@ public partial class Register : System.Web.UI.Page
             DdlCities();
         }
         RegisterMsg.Text = "";
-
+        //Test
     }
     public void DdlCities()
     {
